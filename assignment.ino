@@ -1,4 +1,4 @@
-// Required Libraries for ESP32 Web Server
+// Required Libraries for ESP32 Web Server  
 #include <WiFi.h> // For ESP32 Wi-Fi functionalities
 #include <AsyncTCP.h> // Asynchronous TCP library, a dependency for ESPAsyncWebServer
 #include <ESPAsyncWebServer.h> // Asynchronous Web Server library for ESP32
@@ -7,7 +7,7 @@
 // Define the SSID (network name) for your ESP32's Access Point
 const char* ssid = "EDDIE 2919";
 // Define the password for your ESP32's Access Point. IMPORTANT: Change this to a strong, unique password!
-const char* password = "S2i(4603"; // <--- CHANGE THIS PASSWORD!
+const char* password = "S2i+4603"; // <--- CHANGE THIS PASSWORD!
 
 // --- LED Pin Definitions (Based on Schematic) ---
 // These GPIO pins control the BASE of the NPN transistors that switch the LEDs.
